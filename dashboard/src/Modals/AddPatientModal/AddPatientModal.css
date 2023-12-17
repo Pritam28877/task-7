@@ -1,0 +1,131 @@
+/* Modal Container */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Darker semi-transparent background */
+}
+
+/* Modal Header */
+.modal-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3498db; /* Blue */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  max-width: 700px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 50px;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: #fff; /* White text */
+}
+
+.modal-close-btn {
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #2c3e50; /* Dark Gray text */
+}
+
+/* Modal Body */
+.modal-body {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem;
+  max-width: 700px;
+  background-color: #ecf0f1; /* Light Gray */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  top: 50px;
+}
+
+/* Form Styles */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px; /* Increased margin */
+}
+
+label {
+  font-weight: bold;
+  padding: 0.5rem 0;
+  color: #2c3e50; /* Dark Gray text */
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #95a5a6; /* Light Gray border */
+  font-size: 1rem;
+  width: 70%;
+}
+
+/* Days Container */
+.days-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1rem;
+}
+
+.days-container label {
+  margin-bottom: 0;
+}
+
+.days-container div {
+  display: flex;
+  align-items: center;
+}
+
+/* Medicine Styles */
+.medicineHeader {
+  font-weight: bold;
+  margin: 15px 0;
+  color: #e74c3c; /* Red text */
+}
+
+.medicinesContainer {
+  margin-bottom: 20px; /* Increased margin */
+}
+
+.medicineList {
+  margin: 12px 0; /* Adjusted margin */
+  color: #2ecc71; /* Green text */
+}
+
+/* Delete Button */
+.deleteButton {
+  margin-left: 100px;
+  font-style: italic;
+  cursor: pointer;
+  color: #e74c3c; /* Red text */
+}
+
+/* Button List */
+.buttonList {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Error Tag */
+.errorTag {
+  text-align: center;
+  font-weight: 800;
+  color: #e74c3c; /* Red text */
+  font-size: 15px;
+  margin-top: 10px; /* Increased margin */
+}

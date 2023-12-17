@@ -1,0 +1,168 @@
+/* Dashboard Container */
+.dashboard-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background-color: #e6f7ff; /* Light Blue */
+  }
+  
+  /* Dashboard Top */
+  .dashboard-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  .dashboard-searchbar-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+  }
+  
+  /* Dashboard Patients */
+  .dashboard-patients {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .dashboard-patient {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .dashboard-patient-left {
+    flex: 1;
+  }
+   */
+  .dashboard-patient-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: 10px;
+  }
+  
+  .dashboard-patient-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-patient-header h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .dashboard-patient-header button {
+    background-color: #007acc; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 2px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .dashboard-patient-header button:hover {
+    background-color: #005b99; /* Darker Blue on Hover */
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    list-style: none;
+  }
+  
+  .pagination li button {
+    background-color: #007acc; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination li button:hover {
+    background-color: #005b99; /* Darker Blue on Hover */
+  }
+  
+  .pagination .active button {
+    background-color: #005b99; /* Darker Blue for Active State */
+  }
+  
+  button {
+    background-color: #007acc; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005b99; /* Darker Blue on Hover */
+  }
+  
+  .dashboard-searchbar-container input[type="text"] {
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    width: 500px;
+  }
+  
+  .dashboard-searchbar-container button {
+    background-color: #007acc; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .dashboard-searchbar-container button:hover {
+    background-color: #005b99; /* Darker Blue on Hover */
+  }
+  
+  /* Additional Styles */
+  .danger {
+    background-color: #ff6666; /* Light Red */
+  }
+  
+  .danger:hover {
+    background-color: #ff1a1a !important; /* Darker Red on Hover */
+  }
+  
+  .deleteButtonsPhone {
+    margin-top: 30px;
+    min-height: 50px;
+    position: relative;
+  }
+  
+  .dangerPhone {
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+    background-color: #ff6666 !important; /* Light Red */
+  }
+  
+  .dangerPhone:hover {
+    background-color: #ff1a1a !important; /* Darker Red on Hover */
+  }
+  
